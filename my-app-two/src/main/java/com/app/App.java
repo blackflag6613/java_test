@@ -10,6 +10,6 @@ public class App
     {
         int a = 0;
         String ne_w;
-        System.out.println( "Hello World from Jenkins! (SonarQube Scnanner) );
+        System.out.println( "Hello World from Jenkins! (SonarQube Scnanner)" );
     }
 }
