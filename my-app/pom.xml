@@ -14,7 +14,7 @@
     <java.version>11</java.version>
     <maven.compiler.source>${java.version}</maven.compiler.source>
     <maven.compiler.target>${java.version}</maven.compiler.target>
-    <sonar.host.url>http://172.10.0.5:9000</sonar.host.url>
+
   </properties>
 
   <dependencies>
@@ -29,13 +29,7 @@
   <build>
     <pluginManagement>
       <plugins>
-       
-        <plugin>
-          <groupId>org.sonarsource.scanner.maven</groupId>
-          <artifactId>sonar-maven-plugin</artifactId>
-          <version>3.9.1.2184</version>
-        </plugin>
-	      
+             
         <plugin>
           <groupId>org.jacoco</groupId>
           <artifactId>jacoco-maven-plugin</artifactId>
